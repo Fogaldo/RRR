@@ -3,9 +3,9 @@ console.log();
 function getInput(){
     let a = document.getElementById("fora1").value;
     if (a == "камень"){
-        t.textContent("бумага");
+        t.textContent = "бумага";
     } else if (a == "бумага"){
-        t.textContent("ножницы")
+        t.textContent = "ножницы";
     } else if(a == "ножницы"){
         t.textContent = "камень";
     } else{
