@@ -1,5 +1,4 @@
 let t = document.getElementById("outputText");
-console.log();
 function getInput(){
     let a = document.getElementById("fora1").value;
     if (a == "камень"){
